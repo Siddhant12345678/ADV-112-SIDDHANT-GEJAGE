@@ -1,0 +1,56 @@
+body{
+    background: rgb(250,255,0);
+background: linear-gradient(90deg, rgba(250,255,0,1) 0%, rgba(69,252,118,1) 100%);
+border: 10px solid red;
+font-family: 'Mont-Heavy';
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
+#result_emotion_name ,#result_emotion_name2  
+{
+  color: black;
+}
+.emotion_name
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+}
+#heading{
+  font-size: 30px;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  width: 70%;
+  background-color: aqua;
+}
+.head{
+    font-size: 25px;
+}
+#op{
+    padding-top: 40px;
+}
+#op2{
+    padding-top: 40px;
+}
+#p{
+    background-color: rgb(247, 255, 3);
+    width: 20%;
+    border-radius: 10px;
+}
+#op3{
+    color: darkorange;
+}
+@font-face {
+    font-family: 'Mont-Heavy';
+    src: url(Mont-HeavyDEMO.otf);
+}
